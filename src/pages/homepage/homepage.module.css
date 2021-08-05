@@ -1,0 +1,36 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.table__rating {
+    cursor: pointer;
+}
+
+.rating__icon {
+    font-size: 12px;
+}
+
+
+table {
+    width: min(610px, 90vw);
+    /* width: 610px; */
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+thead {
+    border-bottom: 1px solid black;
+}
+
+
+@media (max-width: 500px) {
+    .table__imageheader{
+        display: none;
+    }
+    
+}
