@@ -69,7 +69,7 @@ function Homepage() {
                                 rating={movie.vote_average} />))
                         : reverseMovies.map((movie, index) => (
                             <MovieRow 
-                                key={500+index} 
+                                key={movies.length+index} 
                                 rank={500-index} 
                                 id={movie.id}  
                                 title={movie.title} 
